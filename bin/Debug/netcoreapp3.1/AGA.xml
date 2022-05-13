@@ -1,0 +1,469 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AGA</name>
+    </assembly>
+    <members>
+        <member name="M:AGA.Controllers.ApplicationController.Create(AGA.ViewModels.ApplicationVM)">
+            <summary>
+            Create Application
+            </summary>
+            <param name="model">Application model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ApplicationController.GetByUniqueId(System.String)">
+            <summary>
+            Get Application By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Application </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ApplicationController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ApplicationController.GetAllWithFilter(AGA.Models.ApplicationSearchModel)">
+            <summary>
+            GetAllWithFilter
+            </summary>
+            <param name="model">Application Search  model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ApplicationController.Update(AGA.Models.Application)">
+            <summary>
+            Update Application
+            </summary>
+            <param name="model">Application model</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ApplicationController.Delete(System.String)">
+            <summary>
+            Delete Application By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Application </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BlogController.Create(AGA.ViewModels.BlogVM)">
+            <summary>
+            Create Blog
+            </summary>
+            <param name="model">Blog model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BlogController.GetByUniqueId(System.String)">
+            <summary>
+            Get Blog By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Blog </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BlogController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BlogController.GetAllActive">
+            <summary>
+            GetAllActive
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BlogController.Update(AGA.Models.Blog)">
+            <summary>
+            Update Blog
+            </summary>
+            <param name="model">Blog model</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BlogController.Activate(System.String)">
+            <summary>
+            Activate Blog
+            </summary>
+            <param name="uniq_id">uniq_id of Blog</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BlogController.Deactivate(System.String)">
+            <summary>
+            Deactivate Blog
+            </summary>
+            <param name="uniq_id">uniq_id of Blog</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BlogController.Delete(System.String)">
+            <summary>
+            Delete Blog By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Blog </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.CategoryController.Create(AGA.ViewModels.CategoryVM)">
+            <summary>
+            Create Category
+            </summary>
+            <param name="model">Category model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.CategoryController.GetByUniqueId(System.String)">
+            <summary>
+            Get Category By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Category </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.CategoryController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.CategoryController.Delete(System.String)">
+            <summary>
+            Delete Category By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Category </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ContactUsController.Create(AGA.ViewModels.ContactUsVM)">
+            <summary>
+            Create ContactUs
+            </summary>
+            <param name="model">ContactUs model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ContactUsController.GetByUniqueId(System.String)">
+            <summary>
+            Get ContactUs By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of ContactUs </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ContactUsController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ManagementController.Create(AGA.ViewModels.StaffVM)">
+            <summary>
+            Create Staff
+            </summary>
+            <param name="model">Staff model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ManagementController.GetByUniqueId(System.String)">
+            <summary>
+            Get Staff By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Staff </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ManagementController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ManagementController.Update(AGA.Models.Staff)">
+            <summary>
+            Update Staff
+            </summary>
+            <param name="model">Staff model</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ManagementController.Delete(System.String)">
+            <summary>
+            Delete Staff By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Staff </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.NewsController.Create(AGA.ViewModels.NewsVM)">
+            <summary>
+            Create News
+            </summary>
+            <param name="model">News model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.NewsController.GetByUniqueId(System.String)">
+            <summary>
+            Get News By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of News </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.NewsController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.NewsController.GetAllActive">
+            <summary>
+            GetAllActive
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.NewsController.Update(AGA.Models.News)">
+            <summary>
+            Update News
+            </summary>
+            <param name="model">News model</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.NewsController.Activate(System.String)">
+            <summary>
+            Activate News
+            </summary>
+            <param name="uniq_id">uniq_id of News</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.NewsController.Deactivate(System.String)">
+            <summary>
+            Deactivate News
+            </summary>
+            <param name="uniq_id">uniq_id of News</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.NewsController.Delete(System.String)">
+            <summary>
+            Delete News By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of News </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ResidentialApplicationController.Create(AGA.ViewModels.ResidentialApplicationVM)">
+            <summary>
+            Create ResidentialApplication
+            </summary>
+            <param name="model">ResidentialApplication model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ResidentialApplicationController.GetByUniqueId(System.String)">
+            <summary>
+            Get ResidentialApplication By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of ResidentialApplication </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ResidentialApplicationController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ResidentialApplicationController.Update(AGA.Models.ResidentialApplication)">
+            <summary>
+            Update ResidentialApplication
+            </summary>
+            <param name="model">ResidentialApplication model</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ResidentialApplicationController.Delete(System.String)">
+            <summary>
+            Delete ResidentialApplication By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of ResidentialApplication </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ScholarshipController.Create(AGA.ViewModels.ScholarshipVM)">
+            <summary>
+            Create Scholarship
+            </summary>
+            <param name="model">Scholarship model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ScholarshipController.GetByUniqueId(System.String)">
+            <summary>
+            Get Scholarship By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Scholarship </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ScholarshipController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ScholarshipController.Update(System.String,System.String)">
+             <summary>
+             Update Scholarship
+             </summary>
+             <param name="uniq_id">Scholarship uniq_id</param>
+            <param name="status">Scholarship status</param>
+             <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ScholarshipController.Delete(System.String)">
+            <summary>
+            Delete Scholarship By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Scholarship </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SectorController.Create(System.String)">
+            <summary>
+            Create Sector
+            </summary>
+            <param name="title">Sector Name </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SectorController.GetByUniqueId(System.String)">
+            <summary>
+            Get Sector By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Sector </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SectorController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SectorController.Delete(System.String)">
+            <summary>
+            Delete Sector By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Sector </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SliderController.Create(AGA.ViewModels.SliderVM)">
+            <summary>
+            Create Slider
+            </summary>
+            <param name="model">Slider model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SliderController.GetByUniqueId(System.String)">
+            <summary>
+            Get Slider By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Slider </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SliderController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SliderController.GetAllActive">
+            <summary>
+            GetAllActive
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SliderController.Update(AGA.Models.Slider)">
+            <summary>
+            Update Slider
+            </summary>
+            <param name="model">Slider model</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SliderController.PriorityUpdateRange(System.Collections.Generic.Dictionary{System.String,System.Int32})">
+            <summary>
+             Priority Update Range
+            </summary>
+            <param name="pairs"> Dictionary(uniq_id,priority) </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SliderController.Activate(System.String)">
+            <summary>
+            Activate Slider
+            </summary>
+            <param name="uniq_id">uniq_id of Slider</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SliderController.Deactivate(System.String)">
+            <summary>
+            Deactivate Slider
+            </summary>
+            <param name="uniq_id">uniq_id of Slider</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SliderController.Delete(System.String)">
+            <summary>
+            Delete Slider By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Slider </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SubscriptionController.Create(AGA.ViewModels.SubscriptionVM)">
+            <summary>
+            Create Subscription
+            </summary>
+            <param name="model">Subscription model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SubscriptionController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.VacancyController.Create(AGA.ViewModels.VacancyVM)">
+            <summary>
+            Create Vacancy
+            </summary>
+            <param name="model">Vacancy model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.VacancyController.GetByUniqueId(System.String)">
+            <summary>
+            Get Vacancy By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Vacancy </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.VacancyController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.VacancyController.GetAllActive">
+            <summary>
+            GetAllActive
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.VacancyController.GetAllWithFilter(AGA.Models.VacancySearchModel)">
+            <summary>
+            GetAllWithFilter
+            </summary>
+            <param name="model">Vacancy Search  model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.VacancyController.Update(AGA.Models.Vacancy)">
+            <summary>
+            Update Vacancy
+            </summary>
+            <param name="model">Vacancy model</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.VacancyController.Activate(System.String)">
+            <summary>
+            Activate Vacancy
+            </summary>
+            <param name="uniq_id">uniq_id of Vacancy</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.VacancyController.Deactivate(System.String)">
+            <summary>
+            Deactivate Vacancy
+            </summary>
+            <param name="uniq_id">uniq_id of Vacancy</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.VacancyController.Delete(System.String)">
+            <summary>
+            Delete Vacancy By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Vacancy </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
