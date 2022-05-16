@@ -11,8 +11,8 @@ namespace AGA.ViewModels
         public string alt_text { get; set; }
         public string creator_name { get; set; }
         public string creator_photo { get; set; }
-        public string creator_smedia { get; set;
-            public string slug { get; set; }
+        public string creator_smedia { get; set; }
+        public string slug { get; set; }
         
     }
 }

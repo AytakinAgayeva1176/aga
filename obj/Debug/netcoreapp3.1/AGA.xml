@@ -99,6 +99,40 @@
             <param name="uniq_id"> Unique id of Blog </param>
             <returns></returns>
         </member>
+        <member name="M:AGA.Controllers.BrandController.Create(AGA.ViewModels.BrandVM)">
+            <summary>
+            Create Brand
+            </summary>
+            <param name="model">Brand model </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BrandController.GetByUniqueId(System.String)">
+            <summary>
+            Get Brand By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Brand </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BrandController.GetAll">
+            <summary>
+            GetAll
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BrandController.Update(AGA.Models.Brand)">
+            <summary>
+            Update Brand
+            </summary>
+            <param name="model">Brand model</param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.BrandController.Delete(System.String)">
+            <summary>
+            Delete Brand By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of Brand </param>
+            <returns></returns>
+        </member>
         <member name="M:AGA.Controllers.CategoryController.Create(AGA.ViewModels.CategoryVM)">
             <summary>
             Create Category
@@ -144,6 +178,13 @@
             <summary>
             GetAll
             </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.ContactUsController.Delete(System.String)">
+            <summary>
+            Delete ContactUs By UniqId
+            </summary>
+            <param name="uniq_id"> Unique id of ContactUs </param>
             <returns></returns>
         </member>
         <member name="M:AGA.Controllers.ManagementController.Create(AGA.ViewModels.StaffVM)">
@@ -328,6 +369,12 @@
             Delete Sector By UniqId
             </summary>
             <param name="uniq_id"> Unique id of Sector </param>
+            <returns></returns>
+        </member>
+        <member name="M:AGA.Controllers.SecurityController.GetToken">
+            <summary>
+            Get User by Email and return new token
+            </summary>
             <returns></returns>
         </member>
         <member name="M:AGA.Controllers.SliderController.Create(AGA.ViewModels.SliderVM)">
